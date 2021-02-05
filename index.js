@@ -3,7 +3,7 @@ function updateObjectWithKeyAndValue(obj, key, value) {
   return obj
 }
 
-//this one passed
+//passed
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
   obj[key] = value
   return obj
@@ -13,6 +13,7 @@ function deleteFromObjectByKey(obj, key) {
   delete obj[key]
 }
 
+//passed
 function destructivelyDeleteFromObjectByKey(obj, key) {
   delete obj[key]
   return obj
